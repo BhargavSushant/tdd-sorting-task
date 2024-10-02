@@ -1,5 +1,3 @@
-// __tests__/sort.test.js
-
 const sort = require("../sort");
 
 test("sorts an array of numbers in ascending order", () => {
