@@ -13,3 +13,13 @@ test("returns an empty array when given an empty array", () => {
 test("handles arrays with duplicate values", () => {
   expect(sort([3, 3, 1, 2, 2])).toEqual([1, 2, 2, 3, 3]);
 });
+
+// Adding more tests as per step 6
+
+test("returns an empty array when given an empty array", () => {
+  expect(sort([])).toEqual([]);
+});
+
+test("handles arrays with duplicate values", () => {
+  expect(sort([3, 3, 1, 2, 2])).toEqual([1, 2, 2, 3, 3]);
+});
